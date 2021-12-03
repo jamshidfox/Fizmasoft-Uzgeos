@@ -1,0 +1,42 @@
+.search-found-div {
+  display: flex;
+}
+.image-searched {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  /* box-shadow: 0px 0px 7px 1px blue; */
+  animation: searched 1s infinite;
+}
+.image-found {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  /* box-shadow: 0px 0px 7px 1px red; */
+  margin-left: 5px;
+  animation: found 500ms infinite;
+}
+.alarm-title {
+  text-align: center;
+  color: black;
+}
+.details-container {
+  margin-top: 10px;
+}
+
+@keyframes searched {
+  0% {
+    box-shadow: 0px 0px 7px 1px red;
+  }
+  100% {
+    box-shadow: 0px 0px 7px 1px blue;
+  }
+}
+@keyframes found {
+  0% {
+    box-shadow: 0px 0px 7px 1px blue;
+  }
+  100% {
+    box-shadow: 0px 0px 7px 1px red;
+  }
+}

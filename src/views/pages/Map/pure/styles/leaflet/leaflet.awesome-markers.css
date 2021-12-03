@@ -1,0 +1,21 @@
+.awesome-marker {
+  position: absolute;
+  font-size: 40px;
+}
+
+.awesome-marker-icon {
+  padding: 3px 0;
+}
+
+.awesome-marker-html {
+  font-style: normal;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.awesome-marker-shadow {
+  background: url("../../images/markers-shadow.png") no-repeat 0 0;
+  width: 36px;
+  height: 16px;
+}

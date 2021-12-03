@@ -1,0 +1,313 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url("./font/OpenSans-Regular.ttf") format("truetype");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url("./font/OpenSans-Regular.ttf") format("truetype");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url("./font/OpenSans-Regular.ttf") format("truetype");
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url("./font/OpenSans-Regular.ttf") format("truetype");
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url("./font/OpenSans-Regular.ttf") format("truetype");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url("./font/OpenSans-Regular.ttf") format("truetype");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url("./font/OpenSans-Regular.ttf") format("truetype");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url("./font/OpenSans-SemiBold.ttf") format("truetype");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url("./font/OpenSans-SemiBold.ttf") format("truetype");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url("./font/OpenSans-SemiBold.ttf") format("truetype");
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url("./font/OpenSans-SemiBold.ttf") format("truetype");
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url("./font/OpenSans-SemiBold.ttf") format("truetype");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url("./font/OpenSans-SemiBold.ttf") format("truetype");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url("./font/OpenSans-SemiBold.ttf") format("truetype");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Passport (begin) */
+.passport_loading {
+  /* background: url(../images/ajax-loader.gif) no-repeat right 5px top 2px #fff; */
+  width: 46px;
+  height: 38px;
+}
+.passport_error {
+  width: 130px;
+  text-align: center;
+  color: #f00;
+  font-weight: bold;
+}
+.passport_data {
+  width: 215px;
+}
+.passport_data > div {
+  cursor: pointer;
+  border: 1px solid #aaa;
+  color: #000;
+  border-radius: 3px;
+  padding: 4px;
+  margin-bottom: 5px;
+}
+.passport_data > div:hover {
+  background: #10b292;
+  color: #ffffff;
+  border-color: #0f7763;
+}
+
+.passport_data_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.passport_data_list {
+  height: calc(100% - 6px);
+  border: 1px solid #aaa;
+  flex: 1;
+  margin-right: 5px;
+  border-radius: 5px;
+  overflow-y: auto;
+}
+.passport_data_result {
+  height: calc(100% - 6px);
+  border: 1px solid #aaa;
+  flex: 2;
+  border-radius: 5px;
+}
+.passport_data_list_item {
+  margin: 5px;
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+}
+.passport_data_list_item:hover {
+  background-color: #10b292;
+  border-color: #0f7763;
+  color: #fff;
+}
+.passport_data_list_item.selected {
+  background-color: #10b292;
+  border-color: #0f7763;
+  color: #fff;
+}
+.passport_dot {
+  font-size: 8px;
+  margin: 5px 7px 0px 5px;
+  position: relative;
+  top: -3px;
+}
+
+.passport-info__sub-head,
+.passport-info__sub-head > div:nth-child(3),
+.passport-info__sub-head > div:nth-child(4),
+.passport-info__content-details-cols > div:nth-child(2) {
+  border-color: #808080 !important;
+}
+
+/*header*/
+.passport-info {
+  text-transform: uppercase !important;
+  width: 500px;
+  border-radius: 5px;
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f7f7f7;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAcBAMAAAA6gErHAAAAMFBMVEXf39+1tbXg4OC/v7/Gxsrh4eHHx8rGxsbGxsrExMTDw8PGxsbDw8rExMq/v8q1tctsqyaSAAAAEHRSTlMACAAQMQA5MSkgGSkZIBAI107I3wAAAoNJREFUeF4V0t9rVEccxuF3ZjLtGmOZmXULRgNz9uiFvfqew7oJFmXCHjbZROlkw94IwilZYn4Ja7MkaaKCsAZLERLdprdJG9JCbwIRhHgT6EEKvbJpe99r7/oXuP4BL3weeLG6raWt206UL8JCnZmBD5X6tepQrVFd8evLloQkLYsdgII/55MUr0cmKC9Ku9P1oqSIsb5IqFzt5qJDtpXdkuxf44nJoue+/ys+2KTcC4ez39DmqF0HKFCqQQjXws47nkkHPmHEzhsHVgga2tS5yJKfmZ7QKWSZEIwdqYKfYqRQz3dnApab4Q6270HA3yQnXOUD0/AoH38L/BJbB2IPWZjmViJwUmG4X7PPtB0PZApgh5VOcX5NqSKpkRqCT34KHWQLhNJWJ/LsjyVtp2/MURD2f315F8zBsDsTt2CVfVsRA2N7CpYe7RglUhjL2076orWd4+YpKXA5XLEwDlzwHdJkyIvqMY+8sSgvexY52Cm7cRho0qx7+1UkgDzKC0C91bOfW65IitB9LK8mex51bHSZZilkvm+rewWUjZPB0NgJwlw6/NTKFmJ01Of/4Mv5yAL8wsY1X94bdAop6LN1fnX54mTMDfUCS7fjrsQ8GimQeyntZBKhQEpbrfYfLVmTEWshn/2nB1aOBM8jAKwVBwsauUPhoO5Pi83vWoxxJiVEQAfVbaVqkcPdUfrxeViDKMQhj3qbuS+SE/z9f4ru7+Ua2FsVFKCnvZEjFTuwuPXpDw6bv9WEKJR6AoDXgb6/gKHJS/cdkjkTA2JdQsfaAt9LIX02PuvQflIURR52CDBexP0zJuBk33/86Gx1Nmk329UkaTZXZpN77Wayeq9ZdR8AKlSbB1hHF9QAAAAASUVORK5CYII=");
+}
+.passport-info__title {
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.02rem;
+  font-size: 14px;
+}
+.passport-info__sub-head {
+  display: flex;
+  font-size: 10px;
+  border-top: 1px solid;
+}
+.passport-info__sub-head > div {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  align-self: center;
+  padding-top: 3px;
+}
+.passport-info__sub-head > div:nth-child(1),
+.passport-info__sub-head > div:nth-child(2) {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.passport-info__sub-head > div:nth-child(3) {
+  border: 1px solid;
+  border-top-width: 0;
+  border-bottom-width: 0;
+}
+.passport-info__sub-head > div:nth-child(4) {
+  border: 1px solid;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+}
+.passport-info__sub-head-normal {
+  font-size: 8px;
+}
+.passport-info__sub-head-bold {
+  font-weight: 600;
+  font-size: 11px;
+}
+#p__type,
+#p__country,
+#p__passport-number {
+  font-size: 14px;
+}
+/*header*/
+
+/*content*/
+.passport-info__content {
+  padding-top: 10px;
+  display: flex;
+  font-size: 10px;
+}
+.passport-info__content-img {
+  position: relative;
+}
+#p__img {
+  width: 150px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.passport-info__content-details {
+  padding-left: 10px;
+}
+.passport-info__content-details-normal {
+  font-size: 8px;
+}
+.passport-info__content-details-bold {
+  font-weight: 600;
+  font-size: 14px;
+}
+.passport-info__content-img span {
+  transform: rotateY(-175deg);
+  display: none;
+  font-weight: bold;
+  position: absolute;
+  bottom: 30px;
+  font-size: 20px;
+}
+.passport-info__content-details-cols {
+  display: flex;
+  margin-bottom: 15px;
+}
+.passport-info__content-details-cols > div:nth-child(2) {
+  border-left: 1px solid;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+.passport-info__content-details-cols:nth-child(1) > div:nth-child(1) {
+  text-align: center;
+}
+.passport-info__content-details-cols-center {
+  text-align: center;
+}
+#p__name,
+#p__surname {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  letter-spacing: 1.5px;
+}
+#p__pob,
+#p__passport-number {
+  letter-spacing: 2px;
+}
+#p_dob,
+#p_doi,
+#p_doe {
+  letter-spacing: 1px;
+}
+/* Passport (end) */

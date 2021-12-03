@@ -1,0 +1,233 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?fa1e0ca1f0287ce36c33db78113f3948") format("truetype"),
+url("./flaticon.woff?fa1e0ca1f0287ce36c33db78113f3948") format("woff"),
+url("./flaticon.woff2?fa1e0ca1f0287ce36c33db78113f3948") format("woff2"),
+url("./flaticon.eot?fa1e0ca1f0287ce36c33db78113f3948#iefix") format("embedded-opentype"),
+url("./flaticon.svg?fa1e0ca1f0287ce36c33db78113f3948#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "abacus": "\f101",
+    "school": "\f102",
+    "mortarboard": "\f103",
+    "school-1": "\f104",
+    "education": "\f105",
+    "enterprise": "\f106",
+    "hotel": "\f107",
+    "hairdresser": "\f108",
+    "gas": "\f109",
+    "tower": "\f10a",
+    "hand": "\f10b",
+    "wifi": "\f10c",
+    "gas-station": "\f10d",
+    "car-wash": "\f10e",
+    "car-repair": "\f10f",
+    "parking": "\f110",
+    "table": "\f111",
+    "dish": "\f112",
+    "chef": "\f113",
+    "wedding-couple": "\f114",
+    "tea-cup": "\f115",
+    "islam": "\f116",
+    "church": "\f117",
+    "synagogue": "\f118",
+    "market": "\f119",
+    "dress": "\f11a",
+    "worker-of-construction-working-with-a-shovel-beside-material-pile": "\f11b",
+    "shopping-store": "\f11c",
+    "store": "\f11d",
+    "rashtrapati-bhavan": "\f11e",
+    "mace": "\f11f",
+    "hotel-bell": "\f120",
+    "tax": "\f121",
+    "road-with-broken-line": "\f122",
+    "notary": "\f123",
+    "bank": "\f124",
+    "hospital": "\f125",
+    "baby": "\f126",
+    "medicine": "\f127",
+    "field": "\f128",
+    "swimmer": "\f129",
+    "dumbbell": "\f12a",
+    "garden": "\f12b",
+    "theater": "\f12c",
+    "clapperboard": "\f12d",
+    "barrier-and-car": "\f12e",
+    "speed-radar": "\f12f",
+    "traffic-light": "\f130",
+    "gun": "\f131",
+    "wanted-1": "\f132",
+    "police-1": "\f133",
+    "policeman": "\f134",
+);
+
+.flaticon-abacus:before {
+    content: map-get($flaticon-map, "abacus");
+}
+.flaticon-school:before {
+    content: map-get($flaticon-map, "school");
+}
+.flaticon-mortarboard:before {
+    content: map-get($flaticon-map, "mortarboard");
+}
+.flaticon-school-1:before {
+    content: map-get($flaticon-map, "school-1");
+}
+.flaticon-education:before {
+    content: map-get($flaticon-map, "education");
+}
+.flaticon-enterprise:before {
+    content: map-get($flaticon-map, "enterprise");
+}
+.flaticon-hotel:before {
+    content: map-get($flaticon-map, "hotel");
+}
+.flaticon-hairdresser:before {
+    content: map-get($flaticon-map, "hairdresser");
+}
+.flaticon-gas:before {
+    content: map-get($flaticon-map, "gas");
+}
+.flaticon-tower:before {
+    content: map-get($flaticon-map, "tower");
+}
+.flaticon-hand:before {
+    content: map-get($flaticon-map, "hand");
+}
+.flaticon-wifi:before {
+    content: map-get($flaticon-map, "wifi");
+}
+.flaticon-gas-station:before {
+    content: map-get($flaticon-map, "gas-station");
+}
+.flaticon-car-wash:before {
+    content: map-get($flaticon-map, "car-wash");
+}
+.flaticon-car-repair:before {
+    content: map-get($flaticon-map, "car-repair");
+}
+.flaticon-parking:before {
+    content: map-get($flaticon-map, "parking");
+}
+.flaticon-table:before {
+    content: map-get($flaticon-map, "table");
+}
+.flaticon-dish:before {
+    content: map-get($flaticon-map, "dish");
+}
+.flaticon-chef:before {
+    content: map-get($flaticon-map, "chef");
+}
+.flaticon-wedding-couple:before {
+    content: map-get($flaticon-map, "wedding-couple");
+}
+.flaticon-tea-cup:before {
+    content: map-get($flaticon-map, "tea-cup");
+}
+.flaticon-islam:before {
+    content: map-get($flaticon-map, "islam");
+}
+.flaticon-church:before {
+    content: map-get($flaticon-map, "church");
+}
+.flaticon-synagogue:before {
+    content: map-get($flaticon-map, "synagogue");
+}
+.flaticon-market:before {
+    content: map-get($flaticon-map, "market");
+}
+.flaticon-dress:before {
+    content: map-get($flaticon-map, "dress");
+}
+.flaticon-worker-of-construction-working-with-a-shovel-beside-material-pile:before {
+    content: map-get($flaticon-map, "worker-of-construction-working-with-a-shovel-beside-material-pile");
+}
+.flaticon-shopping-store:before {
+    content: map-get($flaticon-map, "shopping-store");
+}
+.flaticon-store:before {
+    content: map-get($flaticon-map, "store");
+}
+.flaticon-rashtrapati-bhavan:before {
+    content: map-get($flaticon-map, "rashtrapati-bhavan");
+}
+.flaticon-mace:before {
+    content: map-get($flaticon-map, "mace");
+}
+.flaticon-hotel-bell:before {
+    content: map-get($flaticon-map, "hotel-bell");
+}
+.flaticon-tax:before {
+    content: map-get($flaticon-map, "tax");
+}
+.flaticon-road-with-broken-line:before {
+    content: map-get($flaticon-map, "road-with-broken-line");
+}
+.flaticon-notary:before {
+    content: map-get($flaticon-map, "notary");
+}
+.flaticon-bank:before {
+    content: map-get($flaticon-map, "bank");
+}
+.flaticon-hospital:before {
+    content: map-get($flaticon-map, "hospital");
+}
+.flaticon-baby:before {
+    content: map-get($flaticon-map, "baby");
+}
+.flaticon-medicine:before {
+    content: map-get($flaticon-map, "medicine");
+}
+.flaticon-field:before {
+    content: map-get($flaticon-map, "field");
+}
+.flaticon-swimmer:before {
+    content: map-get($flaticon-map, "swimmer");
+}
+.flaticon-dumbbell:before {
+    content: map-get($flaticon-map, "dumbbell");
+}
+.flaticon-garden:before {
+    content: map-get($flaticon-map, "garden");
+}
+.flaticon-theater:before {
+    content: map-get($flaticon-map, "theater");
+}
+.flaticon-clapperboard:before {
+    content: map-get($flaticon-map, "clapperboard");
+}
+.flaticon-barrier-and-car:before {
+    content: map-get($flaticon-map, "barrier-and-car");
+}
+.flaticon-speed-radar:before {
+    content: map-get($flaticon-map, "speed-radar");
+}
+.flaticon-traffic-light:before {
+    content: map-get($flaticon-map, "traffic-light");
+}
+.flaticon-gun:before {
+    content: map-get($flaticon-map, "gun");
+}
+.flaticon-wanted-1:before {
+    content: map-get($flaticon-map, "wanted-1");
+}
+.flaticon-police-1:before {
+    content: map-get($flaticon-map, "police-1");
+}
+.flaticon-policeman:before {
+    content: map-get($flaticon-map, "policeman");
+}

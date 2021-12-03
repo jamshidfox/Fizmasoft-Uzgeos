@@ -1,0 +1,84 @@
+.bootstrap-demo .dropdown-trigger {
+    border-radius: 0.25rem;
+    width:365px;
+  }
+  
+  .bootstrap-demo .dropdown-trigger > span:after {
+    font-size: 12px;
+    color: #555;
+    
+  }
+  
+  .bootstrap-demo .toggle {
+    font: normal normal normal 12px/1 FontAwesome;
+    color: #4b488f;
+  }
+  
+  .bootstrap-demo .toggle.collapsed::after {
+    content: "\f067";
+    
+  }
+  
+  .bootstrap-demo .toggle.expanded::after {
+    content: "\f068";
+  }
+  
+  .bootstrap-demo .root {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .bootstrap-demo  .tag-item .search {
+    outline: none;
+    width: 330px;
+}
+
+.bootstrap-demo  .infinite-scroll-component {
+    height: auto;
+    overflow: auto;
+    padding-left: 0.4em;
+    width: 355px;
+}
+
+.bootstrap-demo  .node-label{
+    font-size: 14px;
+}
+
+
+/* checkbox styles */
+.bootstrap-demo .checkbox-item {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.75rem;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    vertical-align: middle;
+  }
+  
+  .bootstrap-demo .checkbox-item:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #aaa;
+    border-radius:50%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .bootstrap-demo .checkbox-item:checked:before {
+    height: 50%;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    border-top-style: none;
+    border-right-style: none;
+    border-color: #2196f3;
+    border-radius:0;
+  }
+  

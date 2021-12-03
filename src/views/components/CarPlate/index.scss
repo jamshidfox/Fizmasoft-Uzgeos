@@ -1,0 +1,398 @@
+@font-face {
+  font-family: "Cargo";
+  src: url(../../../assets/fonts/CAR-GO2.eot);
+  src: url(../../../assets/fonts/CAR-GO2.woff) format("woff");
+  src: url(../../../assets/fonts/CAR-GO2.woff2) format("woff2");
+  src: url(../../../assets/fonts/CAR-GO2.svg) format("svg");
+  src: url(../../../assets/fonts/CAR-GO2.ttf) format("truetype");
+}
+
+.plate {
+  display: inline-block;
+  position: relative;
+  .vertical-line {
+    width: 5px;
+    position: absolute;
+    left: 89px;
+    height: 100%;
+    background-color: #000;
+  }
+}
+#car_number {
+  padding: 0px 40px 0px 5px;
+  outline: none;
+  width: 402px;
+  height: 76px;
+  font-size: 55px;
+  font-family: "Cargo";
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 5px solid #000;
+  border-radius: 5px;
+  background-color: white;
+
+  &::selection {
+    background-color: #f44336;
+    color: white;
+    caret-color: red;
+  }
+}
+
+.country-icon {
+  cursor: default;
+  width: 25px;
+  position: absolute;
+  right: 13px;
+  top: 16px;
+  padding-top: 25px;
+  color: #1892ba;
+  font-weight: bold;
+  font-size: 17px;
+  height: auto;
+  background-image: url(../../../assets/images/flags/uz.png);
+  background-repeat: no-repeat;
+  background-size: 25px 15px;
+}
+
+.none {
+  text-align: center !important;
+  display: none;
+}
+
+.country-icon-first {
+  cursor: default;
+  width: 99%;
+  position: absolute;
+  right: -3px;
+  /* border: 2px solid red; */
+  top: 9px;
+  color: #1892ba;
+  font-weight: bold;
+  font-size: 17px;
+  height: 68px;
+  background-image: url(../../../assets/images/flags/uz.png);
+  background-repeat: no-repeat;
+  background-size: 96px 57px;
+}
+
+@media only screen and (min-width: 1916px) {
+  #car_number {
+    width: 340px;
+    font-size: 45px;
+  }
+  .plate {
+    .vertical-line {
+      left: 70px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1916px) {
+  #car_number {
+    width: 340px;
+    font-size: 45px;
+  }
+  .plate {
+    .vertical-line {
+      left: 70px;
+    }
+  }
+}
+@media only screen and (max-width: 1700px) {
+  #car_number {
+    width: 320px;
+    font-size: 42px;
+  }
+  .plate {
+    .vertical-line {
+      left: 70px;
+    }
+  }
+}
+@media only screen and (max-width: 1550px) {
+  #car_number {
+    width: 270px;
+    font-size: 35px;
+  }
+  .plate {
+    .vertical-line {
+      left: 60px;
+    }
+  }
+}
+@media only screen and (max-width: 1450px) {
+  #car_number {
+    width: 230px;
+    font-size: 28px;
+  }
+  .plate {
+    .vertical-line {
+      left: 48px;
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
+  #car_number {
+    width: 290px;
+    font-size: 37px;
+  }
+  .plate {
+    .vertical-line {
+      left: 60px;
+    }
+  }
+}
+
+//  *********************************************************************************
+// LOADER
+
+.gooey {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 142px;
+  height: 40px;
+  margin: -20px 0 0 -71px;
+  background: #fff;
+  filter: contrast(20);
+}
+.gooey .dot {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 12px;
+  left: 15px;
+  filter: blur(4px);
+  background: #000;
+  border-radius: 50%;
+  transform: translateX(0);
+  animation: dot 2.8s infinite;
+}
+.gooey .dots {
+  transform: translateX(0);
+  margin-top: 12px;
+  margin-left: 31px;
+  animation: dots 2.8s infinite;
+}
+.gooey .dots span {
+  display: block;
+  float: left;
+  width: 12px;
+  height: 12px;
+  margin-left: 16px;
+  filter: blur(4px);
+  background: #000;
+  border-radius: 50%;
+}
+@-moz-keyframes dot {
+  50% {
+    transform: translateX(96px);
+  }
+}
+@-webkit-keyframes dot {
+  50% {
+    transform: translateX(96px);
+  }
+}
+@-o-keyframes dot {
+  50% {
+    transform: translateX(96px);
+  }
+}
+@keyframes dot {
+  50% {
+    transform: translateX(96px);
+  }
+}
+@-moz-keyframes dots {
+  50% {
+    transform: translateX(-31px);
+  }
+}
+@-webkit-keyframes dots {
+  50% {
+    transform: translateX(-31px);
+  }
+}
+@-o-keyframes dots {
+  50% {
+    transform: translateX(-31px);
+  }
+}
+@keyframes dots {
+  50% {
+    transform: translateX(-31px);
+  }
+}
+
+tbody {
+  cursor: pointer;
+}
+
+.img-responsive {
+  cursor: pointer;
+}
+
+.clickedRow > td {
+  background-color: #cce5ff !important;
+}
+
+.table-striped-rows tr:nth-child(2n) td {
+  background-color: #fbfbfb;
+}
+.table-striped-rows thead {
+  background-color: #f1f1f1;
+}
+#the_date {
+  position: absolute;
+  top: 10;
+  left: 30;
+  font-size: 20px;
+  color: yellow;
+  background-color: black;
+  padding: 0px 10px 0px 10px;
+}
+
+.table-striped-rows tr:nth-child(2n) td {
+  background-color: #eee;
+}
+
+// new car plate
+
+.uzbFlag {
+  width: 30px;
+  position: relative;
+  left: 70px;
+}
+.new_car_plate {
+  // margin-top: 0.5em;
+  border: 5px solid black;
+  width: 220px;
+  height: 130px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  overflow: none;
+}
+.car_divider {
+  position: relative;
+  bottom: 72px;
+  height: 65px;
+  width: 107px;
+  right: -104px;
+  border: 2px solid black;
+  border-radius: 5px;
+  z-index: 20;
+}
+
+.new_car_number {
+  padding: 10px 40px 0px 40px;
+  outline: none;
+  resize: none;
+  width: 240px;
+  height: 125px;
+  font-size: 38px;
+  font-family: "Cargo";
+  color: #000;
+  line-height: 55px;
+  border: none;
+  overflow: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: transparent;
+  letter-spacing: 8px;
+  /* font-family: "Orelega One"; */
+  &::selection {
+    background-color: #f44336;
+    color: white;
+    caret-color: red;
+  }
+}
+
+.new_plate_icon {
+  cursor: default;
+  width: 25px;
+  position: absolute;
+  right: 13px;
+  top: 6px;
+  padding-top: 25px;
+  color: #1892ba;
+  font-weight: bold;
+  font-size: 17px;
+  height: auto;
+  background-image: url(../../../assets/images/flags/uz.png);
+  background-repeat: no-repeat;
+  background-size: 25px 15px;
+}
+
+// Motorcycle plate
+
+.motorcycle_plate {
+  // margin-top: 2em;
+  border: 5px solid black;
+  border-radius: 5px;
+  height: 158px;
+  width: 195px;
+}
+
+#moto_number {
+  resize: none;
+  width: 185px;
+  height: 148px;
+  font-size: 40px;
+  padding: 10px 0px 0px 15px;
+  letter-spacing: 7px;
+  outline: none;
+  font-family: "Cargo";
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+
+  &::selection {
+    background-color: #f44336;
+    color: white;
+    caret-color: red;
+  }
+}
+
+.moto_divider2 {
+  position: relative;
+  border: 2px solid black;
+  top: -70px;
+  right: -110px;
+  width: 80px;
+  height: 65px;
+}
+
+.moto_divider {
+  position: relative;
+  z-index: 2;
+  top: -225px;
+  right: -110px;
+  border: 2px solid black;
+  height: 155px;
+  width: 80px;
+}
+.moto_flag {
+  cursor: default;
+  width: 55px;
+  position: relative;
+  right: -15px;
+  top: 5px;
+  padding-top: 25px;
+  color: #1892ba;
+  font-weight: bold;
+  font-size: 22px;
+  height: auto;
+  background-image: url(../../../assets/images/flags/uz.png);
+  background-repeat: no-repeat;
+  background-size: 45px 25px;
+}
+
+.moto_flag span {
+  cursor: default;
+  position: relative;
+  color: #1892ba;
+  font-weight: bold;
+  font-size: 22px;
+  right: 5px;
+}

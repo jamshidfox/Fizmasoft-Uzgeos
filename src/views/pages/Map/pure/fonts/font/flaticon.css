@@ -1,0 +1,225 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "flaticon";
+  src: url("./flaticon.ttf?fa1e0ca1f0287ce36c33db78113f3948") format("truetype"), url("./flaticon.woff?fa1e0ca1f0287ce36c33db78113f3948") format("woff"), url("./flaticon.woff2?fa1e0ca1f0287ce36c33db78113f3948") format("woff2"), url("./flaticon.eot?fa1e0ca1f0287ce36c33db78113f3948#iefix") format("embedded-opentype"), url("./flaticon.svg?fa1e0ca1f0287ce36c33db78113f3948#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+  font-family: flaticon !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-abacus:before {
+  content: "";
+}
+
+.flaticon-school:before {
+  content: "";
+}
+
+.flaticon-mortarboard:before {
+  content: "";
+}
+
+.flaticon-school-1:before {
+  content: "";
+}
+
+.flaticon-education:before {
+  content: "";
+}
+
+.flaticon-enterprise:before {
+  content: "";
+}
+
+.flaticon-hotel:before {
+  content: "";
+}
+
+.flaticon-hairdresser:before {
+  content: "";
+}
+
+.flaticon-gas:before {
+  content: "";
+}
+
+.flaticon-tower:before {
+  content: "";
+}
+
+.flaticon-hand:before {
+  content: "";
+}
+
+.flaticon-wifi:before {
+  content: "";
+}
+
+.flaticon-gas-station:before {
+  content: "";
+}
+
+.flaticon-car-wash:before {
+  content: "";
+}
+
+.flaticon-car-repair:before {
+  content: "";
+}
+
+.flaticon-parking:before {
+  content: "";
+}
+
+.flaticon-table:before {
+  content: "";
+}
+
+.flaticon-dish:before {
+  content: "";
+}
+
+.flaticon-chef:before {
+  content: "";
+}
+
+.flaticon-wedding-couple:before {
+  content: "";
+}
+
+.flaticon-tea-cup:before {
+  content: "";
+}
+
+.flaticon-islam:before {
+  content: "";
+}
+
+.flaticon-church:before {
+  content: "";
+}
+
+.flaticon-synagogue:before {
+  content: "";
+}
+
+.flaticon-market:before {
+  content: "";
+}
+
+.flaticon-dress:before {
+  content: "";
+}
+
+.flaticon-worker-of-construction-working-with-a-shovel-beside-material-pile:before {
+  content: "";
+}
+
+.flaticon-shopping-store:before {
+  content: "";
+}
+
+.flaticon-store:before {
+  content: "";
+}
+
+.flaticon-rashtrapati-bhavan:before {
+  content: "";
+}
+
+.flaticon-mace:before {
+  content: "";
+}
+
+.flaticon-hotel-bell:before {
+  content: "";
+}
+
+.flaticon-tax:before {
+  content: "";
+}
+
+.flaticon-road-with-broken-line:before {
+  content: "";
+}
+
+.flaticon-notary:before {
+  content: "";
+}
+
+.flaticon-bank:before {
+  content: "";
+}
+
+.flaticon-hospital:before {
+  content: "";
+}
+
+.flaticon-baby:before {
+  content: "";
+}
+
+.flaticon-medicine:before {
+  content: "";
+}
+
+.flaticon-field:before {
+  content: "";
+}
+
+.flaticon-swimmer:before {
+  content: "";
+}
+
+.flaticon-dumbbell:before {
+  content: "";
+}
+
+.flaticon-garden:before {
+  content: "";
+}
+
+.flaticon-theater:before {
+  content: "";
+}
+
+.flaticon-clapperboard:before {
+  content: "";
+}
+
+.flaticon-barrier-and-car:before {
+  content: "";
+}
+
+.flaticon-speed-radar:before {
+  content: "";
+}
+
+.flaticon-traffic-light:before {
+  content: "";
+}
+
+.flaticon-gun:before {
+  content: "";
+}
+
+.flaticon-wanted-1:before {
+  content: "";
+}
+
+.flaticon-police-1:before {
+  content: "";
+}
+
+.flaticon-policeman:before {
+  content: "";
+}
+/*# sourceMappingURL=flaticon.css.map */

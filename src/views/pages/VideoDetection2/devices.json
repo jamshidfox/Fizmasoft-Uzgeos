@@ -1,0 +1,8 @@
+[
+  { "title": "UNKNOWN", "state": 0 },
+  { "title": "CONNECTING", "state": 1 },
+  { "title": "CONNECTED", "state": 2 },
+  { "title": "UNCONNECT", "state": 3 },
+  { "title": "EMPTY", "state": 4 },
+  { "title": "DISABLE", "state": 5 }
+]

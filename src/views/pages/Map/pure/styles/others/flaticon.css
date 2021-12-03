@@ -1,0 +1,175 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../../fonts/font/flaticon.ttf") format("truetype"),
+url("../../fonts/font/flaticon.woff") format("woff"),
+url("../../fonts/font/flaticon.woff2") format("woff2"),
+url("../../fonts/font/flaticon.svg") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-abacus:before {
+    content: "\f101";
+}
+.flaticon-school:before {
+    content: "\f102";
+}
+.flaticon-mortarboard:before {
+    content: "\f103";
+}
+.flaticon-school-1:before {
+    content: "\f104";
+}
+.flaticon-education:before {
+    content: "\f105";
+}
+.flaticon-enterprise:before {
+    content: "\f106";
+}
+.flaticon-hotel:before {
+    content: "\f107";
+}
+.flaticon-hairdresser:before {
+    content: "\f108";
+}
+.flaticon-gas:before {
+    content: "\f109";
+}
+.flaticon-tower:before {
+    content: "\f10a";
+}
+.flaticon-hand:before {
+    content: "\f10b";
+}
+.flaticon-wifi:before {
+    content: "\f10c";
+}
+.flaticon-gas-station:before {
+    content: "\f10d";
+}
+.flaticon-car-wash:before {
+    content: "\f10e";
+}
+.flaticon-car-repair:before {
+    content: "\f10f";
+}
+.flaticon-parking:before {
+    content: "\f110";
+}
+.flaticon-table:before {
+    content: "\f111";
+}
+.flaticon-dish:before {
+    content: "\f112";
+}
+.flaticon-chef:before {
+    content: "\f113";
+}
+.flaticon-wedding-couple:before {
+    content: "\f114";
+}
+.flaticon-tea-cup:before {
+    content: "\f115";
+}
+.flaticon-islam:before {
+    content: "\f116";
+}
+.flaticon-church:before {
+    content: "\f117";
+}
+.flaticon-synagogue:before {
+    content: "\f118";
+}
+.flaticon-market:before {
+    content: "\f119";
+}
+.flaticon-dress:before {
+    content: "\f11a";
+}
+.flaticon-worker-of-construction-working-with-a-shovel-beside-material-pile:before {
+    content: "\f11b";
+}
+.flaticon-shopping-store:before {
+    content: "\f11c";
+}
+.flaticon-store:before {
+    content: "\f11d";
+}
+.flaticon-rashtrapati-bhavan:before {
+    content: "\f11e";
+}
+.flaticon-mace:before {
+    content: "\f11f";
+}
+.flaticon-hotel-bell:before {
+    content: "\f120";
+}
+.flaticon-tax:before {
+    content: "\f121";
+}
+.flaticon-road-with-broken-line:before {
+    content: "\f122";
+}
+.flaticon-notary:before {
+    content: "\f123";
+}
+.flaticon-bank:before {
+    content: "\f124";
+}
+.flaticon-hospital:before {
+    content: "\f125";
+}
+.flaticon-baby:before {
+    content: "\f126";
+}
+.flaticon-medicine:before {
+    content: "\f127";
+}
+.flaticon-field:before {
+    content: "\f128";
+}
+.flaticon-swimmer:before {
+    content: "\f129";
+}
+.flaticon-dumbbell:before {
+    content: "\f12a";
+}
+.flaticon-garden:before {
+    content: "\f12b";
+}
+.flaticon-theater:before {
+    content: "\f12c";
+}
+.flaticon-clapperboard:before {
+    content: "\f12d";
+}
+.flaticon-barrier-and-car:before {
+    content: "\f12e";
+}
+.flaticon-speed-radar:before {
+    content: "\f12f";
+}
+.flaticon-traffic-light:before {
+    content: "\f130";
+}
+.flaticon-gun:before {
+    content: "\f131";
+}
+.flaticon-wanted-1:before {
+    content: "\f132";
+}
+.flaticon-police-1:before {
+    content: "\f133";
+}
+.flaticon-policeman:before {
+    content: "\f134";
+}

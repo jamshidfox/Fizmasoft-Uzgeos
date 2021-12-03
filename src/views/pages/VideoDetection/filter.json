@@ -1,0 +1,23 @@
+{
+  "color": ["UNKNOWN", "WHITE", "ORANGE", "PINK", "BLACK", "RED", "YELLOW", "GRAY", "BLUE", "GREEN", "PURPLE", "BROWN"],
+  "coat_color": ["UNKNOWN", "WHITE", "ORANGE", "PINK", "BLACK", "RED", "YELLOW", "GRAY", "BLUE", "GREEN", "PURPLE", "BROWN"],
+  "trousers_color": ["UNKNOWN", "WHITE", "ORANGE", "PINK", "BLACK", "RED", "YELLOW", "GRAY", "BLUE", "GREEN", "PURPLE", "BROWN"],
+  "CoatType": ["UNKNOWN", "LONG_SLEEVE", "COTTA"],
+  "coat_type": ["UNKNOWN", "LONG_SLEEVE", "COTTA"],
+  "TrousersType": ["UNKNOWN", "TROUSERS", "SHORTS", "SKIRT"],
+  "trousers_type": ["UNKNOWN", "TROUSERS", "SHORTS", "SKIRT"],
+  "HasHat": ["UNKNOWN", "NO", "YES"],
+  "hat": ["UNKNOWN", "NO", "YES"],
+  "HasBag": ["UNKNOWN", "NO", "YES"],
+  "bag": ["UNKNOWN", "NO", "YES"],
+  "Gender": ["UNKNOWN", "MAN", "WOMAN"],
+  "gender": ["UNKNOWN", "MAN", "WOMAN"],
+  "mask": ["UNKNOWN", "NODISTI", "NOMASK", "WEAR"],
+  "beard": ["UNKNOWN", "NODISTI", "NOBEARD", "HAVEBEARD"],
+  "has_glass": ["UNKNOWN", "NO", "NORMAL", "SUN", "BLACK"],
+  "emotion": ["UNKNOWN", "WEAR_GLASSES", "SMILE", "ANGER", "SADNESS", "DISGUST", "FEAR", "SURPRISE", "NEUTRAL", "LAUGH", "NOGLASSES", "HAPPY", "CONFUSED", "SCREAM", "WEAR_SUNGLASSES"],
+  "hair_style": ["UNKNOWN", "LONG_HAIR", "SHORT_HAIR", "PONYTAIL", "UPDO", "BLOCKED"],
+  "has_umbrella": ["UNKNOWN", "NO", "YES"],
+  "bag_type": ["UNKNOWN", "HANDBAG", "SHOULDERBAG", "KNAPSACK", "DRAWBARBOX"],
+  "cap_type": ["UNKNOWN", "ORDINARY", "HELMET", "SAFE"]
+}

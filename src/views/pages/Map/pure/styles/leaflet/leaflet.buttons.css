@@ -1,0 +1,40 @@
+.leaflet-control-buttons {
+  margin-left: 0px !important;
+  margin-top: 0px !important;
+  background: transparent;
+}
+
+.leaflet-selected {
+  background-color: #2c374b !important;
+  color: #fff !important;
+}
+
+.leaflet-control-buttons .leaflet-control-buttons-item:focus {
+  outline: none;
+}
+
+.leaflet-control-buttons-item {
+  position: relative;
+  display: inline-block;
+}
+
+.leaflet-control-buttons-item .leaflet-control-buttons-tooltip {
+  visibility: hidden;
+  white-space: nowrap;
+  margin-top: -1px;
+  left: 30px;
+  width: auto;
+  background-color: white;
+  color: #000000;
+  text-align: center;
+  border-radius: 4px;
+  padding: 0px 5px;
+  position: absolute;
+  opacity: 0.8;
+  z-index: 1;
+  border: 1px solid #989898;
+}
+
+.leaflet-control-buttons-item:hover .leaflet-control-buttons-tooltip {
+  visibility: visible;
+}

@@ -1,0 +1,78 @@
+  .animated-icon {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(113, 102, 240, 0.8);
+    box-shadow:
+    0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(113, 102, 240),
+      0 0 82px rgb(113, 102, 240),
+      0 0 92px rgb(113, 102, 240),
+      0 0 102px rgb(113, 102, 240),
+      0 0 151px rgb(113, 102, 240);
+    border-radius: 50%;
+    transition: all 1s;
+    animation: sparkle 500ms;
+  }
+
+/* .animated-icon {
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  transition: all 1s;
+  animation: sparkle 500ms;
+  border-bottom: 20px solid rgba(113, 102, 240, 0.8);
+  position: relative;
+  box-shadow:
+    0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 21px #7267f0,
+    0 0 42px #7267f0,
+    0 0 46px #7267f0,
+    0 0 51px #7267f0,
+    0 0 75px #7267f0; 
+    
+}
+.animated-icon:after {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid rgba(113, 102, 240, 0.8);
+  position: absolute;
+  content: "";
+  top: 7px;
+  left: -10px;
+} */
+
+@keyframes sparkle {
+  0% {
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+  }
+  25% {
+    opacity: 1;
+    width: 10px;
+    height: 10px;
+  }
+  50% {
+    opacity: 1;
+    width: 20px;
+    height: 20px;
+  }
+  75% {
+    opacity: 1;
+    width: 10px;
+    height: 10px;
+  }
+  100% {
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+  }
+}
